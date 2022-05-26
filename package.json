@@ -1,7 +1,7 @@
 {
-  "name": "wuli-sdk",
-  "version": "1.0.1",
-  "description": "sdk demo",
+  "name": "wuli-component",
+  "version": "1.0.0",
+  "description": "component demo",
   "main": "lib/components/index.js",
   "scripts": {
     "build:lib": "rimraf lib && gulp build",
