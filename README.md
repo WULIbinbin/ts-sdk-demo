@@ -1,4 +1,14 @@
-# ts-sdk-demo
-A simple front-end sdk demo using typescript gulp
+# react-component-demo
+A simple front-end ReactDOM components demo using typescript gulp
 
-yarn && yarn build:lib
+```js
+import { WLInput } from 'wuli-component'
+
+function Page(){
+  return (
+    <div>
+      <WLInput />
+    </div>  
+  )
+}
+```
