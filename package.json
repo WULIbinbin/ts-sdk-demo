@@ -1,22 +1,33 @@
 {
-  "name": "wuli-sdk",
+  "name": "wuli-vue3",
   "version": "1.0.1",
-  "description": "sdk demo",
+  "description": "vue3 hook demo",
   "main": "lib/index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
     "build:lib": "rimraf lib && gulp build",
     "test": "jest",
     "publish": "npm publish --registry=https://registry.npmjs.org/"
   },
   "author": "WULIbinbin",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.6",
+    "vuex": "^4.0.0"
+  },
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "gulp": "^4.0.2",
     "gulp-typescript": "6.0.0-alpha.1",
     "jest": "^27.3.1",
     "ts-jest": "^27.0.5",
-    "typescript": "4.4.4"
+    "typescript": "4.4.4",
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vitejs/plugin-vue-jsx": "^1.1.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.1.5"
   }
 }
